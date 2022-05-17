@@ -87,19 +87,18 @@
 ====================================================================
 
 ***/
-@font-face {
-	font-family: "Din-bold";
-	src: url("../fonts/AR/DINNextLTArabic-Bold-2.ttf");
-	src: url("../fonts/AR/DINNextLTArabic-Bold-2.ttf") format("ttf");
-	font-weight: 700;
-  }
   @font-face {
 	font-family: "Din-reg";
 	src: url("../fonts/AR/DINNextLTArabic-Regular-3.ttf");
 	src: url("../fonts/AR/DINNextLTArabic-Regular-3.ttf") format("ttf");
   }
+  @font-face {
+    font-family: 'Font1';
+    src: url('../fonts/AR/DIN\ NEXT™\ ARABIC\ BOLD.otf');
+    font-weight: 500;
+}
 body {
-	font-family: 'Din-bold';
+	font-family: 'Font1';
 	font-size:14px;
 	color:#777777;
 	line-height:1.7em;
@@ -132,7 +131,7 @@ h1,h2,h3,h4,h5,h6 {
 	margin:0px;
 	background:none;
 	line-height:1.6em;
-	font-family: 'Din-bold';
+	font-family: 'Font1';
 }
 
 
@@ -261,7 +260,7 @@ img{
 .back-to-top::after {
   bottom: 0;
   z-index: 5;
-  border-bottom: 20px solid #ff0700;
+  border-bottom: 20px solid #f7f3fb;
 }
 
 .back-to-top:hover, .back-to-top:focus {
@@ -401,7 +400,7 @@ img{
 	overflow:hidden;
 	text-transform: capitalize;
 	background-color:#ffffff;
-	font-family: 'Din-bold';
+	font-family: 'Font1';
 }
 
 .btn-style-one:before{
@@ -413,7 +412,8 @@ img{
 	height:100%;
     z-index: 1;
     opacity: 1;
-    background-color: #ec3a67;
+	color: #fff;
+    background-color: #6015b5;
     -webkit-transition: all 0.4s;
     -moz-transition: all 0.4s;
     -o-transition: all 0.4s;
@@ -451,7 +451,7 @@ img{
 	overflow:hidden;
 	text-transform: capitalize;
 	background-color:#e82a6a;
-	font-family: 'Din-bold';
+	font-family: 'Font1';
 }
 
 .btn-style-two:before{
@@ -557,7 +557,7 @@ img{
 	border-radius:5px;
 	text-transform: capitalize;
 	border:2px solid #ffffff;
-	font-family: 'Din-bold';
+	font-family: 'Font1';
 }
 
 .btn-style-four:before{
@@ -717,7 +717,7 @@ img{
 	border-radius: 5px;
 	overflow:hidden;
 	text-transform: capitalize;
-	font-family: 'Din-bold';
+	font-family: 'Font1';
 	background: #0028A4;
 	background: -webkit-linear-gradient(to right, #0028A4 0%, #003ffd 100%);
 	background: -moz-linear-gradient(to right, #0028A4 0%, #003ffd 100%);
@@ -827,7 +827,7 @@ img{
 	border-radius:5px;
 	text-transform: capitalize;
 	border:2px solid #ffffff;
-	font-family: 'Din-bold';
+	font-family: 'Font1';
 }
 
 .btn-style-nine:before{
@@ -879,7 +879,7 @@ img{
 	overflow:hidden;
 	text-transform: capitalize;
 	background-color:#600cb5;
-	font-family: 'Din-bold';
+	font-family: 'Font1';
 }
 
 .btn-style-ten:before{
@@ -1196,7 +1196,7 @@ img{
 	padding-right:60px;
 	display:inline-block;
 	text-transform:uppercase;
-	font-family: 'Din-bold';
+	font-family: 'Font1';
 }
 
 .sec-title .title:before{
@@ -1798,13 +1798,13 @@ img{
 	opacity:1;
 	font-weight:500;
 	padding:25px 0px;
-	font-size:20px;
+	font-size:18px;
 	transition:all 500ms ease;
 	-moz-transition:all 500ms ease;
 	-webkit-transition:all 500ms ease;
 	-ms-transition:all 500ms ease;
 	-o-transition:all 500ms ease;
-	font-family: 'Din-bold';
+	font-family: 'Font1';
 }
 
 .sticky-header .main-menu .navigation > li{
@@ -1868,7 +1868,7 @@ img{
 	-webkit-transition:all 500ms ease;
 	-ms-transition:all 500ms ease;
 	-o-transition:all 500ms ease;
-	font-family: 'Din-bold';
+	font-family: 'Font1';
 }
 
 .sticky-header .main-menu .navigation > li > a{
@@ -1976,7 +1976,7 @@ img{
 	-ms-transition:all 500ms ease;
 	-o-transition:all 500ms ease;
 	text-transform:capitalize;
-	font-family: 'Din-bold';
+	font-family: 'Font1';
 }
 
 .main-menu .navigation > li > ul > li > ul > li:hover > a{
@@ -2254,7 +2254,7 @@ img{
 	-webkit-transition:all 500ms ease;
 	-ms-transition:all 500ms ease;
 	-o-transition:all 500ms ease;
-	font-family: 'Din-bold';
+	font-family: 'Font1';
 }
 
 .main-menu .navigation > li .mega-menu-bar .column > ul > li > a:before {
@@ -2411,7 +2411,7 @@ img{
 
 .header-style-one .main-menu .navigation > li{
 	margin-right:12px;
-	padding:24px 0px;
+	padding:15px 0px;
 }
 
 .header-style-one .sticky-header .main-menu .navigation > li{
@@ -2430,17 +2430,16 @@ img{
 }
 
 .header-style-one .main-menu .navigation > li > a{
-	padding:0px 10px;
-	font-family: 'Din-bold';
-	font-weight: 600;
-
+	padding: 0px 13px 3px;
+    font-family: 'Font1';
+    font-weight: 400;
 }
 
 .header-style-one .main-menu .navigation > li > a:before{
 	position:absolute;
 	content:'\f0d7';
 	left:50%;
-	bottom:-15px;
+	bottom:-16px;
 	color:#6015b5;
 	font-size:25px;
 	line-height:1em;
@@ -2466,6 +2465,16 @@ img{
 	opacity:1;
 }
 
+.btn-box .btn-style-one{
+	display: inline-block;
+    font-size: 14px;
+    line-height: 25px;
+    color: #222222;
+    padding: 4px 10px 7px;
+    font-weight: 600;
+    overflow: hidden;
+    border-radius: 5px;
+}
 /*** 
 
 ====================================================================
@@ -4458,9 +4467,6 @@ img{
 	-webkit-transition:all 600ms ease;
 	-ms-transition:all 600ms ease;
 	-o-transition:all 600ms ease;
-	background:url(../images/icons/icon-5.png);
-	background-position:left center;
-	background-repeat:no-repeat;
 }
 
 .service-block-two .inner-box .icon-five{
@@ -4536,8 +4542,6 @@ img{
 .service-block-two.style-two .inner-box .icon-box{
 	padding:16px 10px;
 	font-size:50px;
-	background:url(../images/icons/icon-18.png) no-repeat;
-	background-position:center center;
 }
 
 .service-block-two.style-two .inner-box h5 a{
@@ -4816,7 +4820,7 @@ img{
 	color:#ffffff;
 	font-size:54px;
 	line-height:1em;
-	font-family: 'Din-bold';
+	font-family: 'Font1';
 }
 
 .fact-counter .column .inner .counter-title{
@@ -5438,7 +5442,7 @@ img{
 	padding:10px 30px;
 	background: #ff0300;
 	text-transform: capitalize;
-	font-family: 'Din-bold';
+	font-family: 'Font1';
 	background: -webkit-linear-gradient(to right, #600cb5 0%, #3b63e9 100%);;
 	background: -moz-linear-gradient(to right, #600cb5 0%, #3b63e9 100%);;
 	background: linear-gradient(to right, #600cb5 0%, #3b63e9 100%);;
@@ -5453,7 +5457,7 @@ img{
 	margin-top:30px;
 	padding-bottom:20px;
 	border-bottom:1px solid #bbbbbb;
-	font-family: 'Din-bold';
+	font-family: 'Font1';
 }
 
 .price-block .inner-box .price-list{
@@ -5790,6 +5794,7 @@ img{
 .main-footer .logo-widget .logo{
 	position:relative;
 	margin-bottom:15px;
+	margin-top: -24px;
 }
 
 .main-footer .logo-widget .text{
@@ -6442,7 +6447,7 @@ img{
 	color:#6b17b4;
 	font-size:36px;
 	line-height:1em;
-	font-family: 'Din-bold';
+	font-family: 'Font1';
 }
 
 .fact-counter-two .column .inner .counter-title{
@@ -12513,7 +12518,7 @@ img{
 	font-weight:400;
 	color:#222222;
 	font-size:16px;
-	font-family: 'Din-bold';
+	font-family: 'Font1';
 }
 
 .cart-table thead tr th.prod-column{
@@ -15283,7 +15288,7 @@ img{
 	font-size:24px;
 	font-weight:600;
 	line-height:1.3em;
-	font-family: 'Din-bold';
+	font-family: 'Font1';
 }
 
 .team-block-two .inner-box .lower-content h3 a{
@@ -15782,7 +15787,7 @@ img{
 	border-radius:50px;
 	border:10px solid #162d76;
 	background-color:#ffffff;
-	font-family: 'Din-bold';
+	font-family: 'Font1';
 }
 
 .business-block:nth-child(2) .inner-box .box-number{
