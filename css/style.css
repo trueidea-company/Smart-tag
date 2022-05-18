@@ -3896,9 +3896,10 @@ img{
 	position:relative;
 	text-align:center;
 	border-radius:8px;
-	padding:70px 20px 60px;
+	padding:70px 19px 60px;
 	background-color:#ffffff;
 	box-shadow:0px 0px 20px rgba(0,0,0,0.10);
+	height: 345px;
 }
 
 .service-block .inner-box .color-layer{
@@ -4079,24 +4080,23 @@ img{
 }
 
 .service-block.style-two .inner-box .color-layer:before{
-	background-color:#4c68e2;
-	background: -webkit-linear-gradient(to bottom, #4c68e2 0%, #161ab2 100%);
-	background: -moz-linear-gradient(to bottom, #4c68e2 0%, #161ab2 100%);
-	background: linear-gradient(to bottom, #4c68e2 0%, #161ab2 100%);
+	background: -webkit-linear-gradient(to bottom, #d8ddfa 0%, #dfcef2 100%);
+    background: -moz-linear-gradient(to bottom, #d8ddfa 0%, #dfcef2 100%);
+    background: linear-gradient(to bottom, #d8ddfa 0%, #dfcef2 100%);
 }
 
 .service-block.style-two .inner-box .color-layer:after{
 	background-color:#4c68e2;
-	background: -webkit-linear-gradient(to bottom, #4c68e2 0%, #161ab2 100%);
-	background: -moz-linear-gradient(to bottom, #4c68e2 0%, #161ab2 100%);
-	background: linear-gradient(to bottom, #4c68e2 0%, #161ab2 100%);
+	background: -webkit-linear-gradient(to bottom, #d8ddfa 0%, #dfcef2 100%);
+    background: -moz-linear-gradient(to bottom, #d8ddfa 0%, #dfcef2 100%);
+    background: linear-gradient(to bottom, #d8ddfa 0%, #dfcef2 100%)
 }
 
 .service-block.style-two .inner-box .arrow-icon{
-	background-color:#ff2800;
-	background: -webkit-linear-gradient(to bottom, #ff2800 0%, #ff2800 100%);
-	background: -moz-linear-gradient(to bottom, #ff2800 0%, #ff2800 100%);
-	background: linear-gradient(to bottom, #ff2800 0%, #ff2800 100%);
+	background-color:#600cb5;
+	background: -webkit-linear-gradient(to left, #600cb5 0%, #3b63e9 100%);
+    background: -moz-linear-gradient(to left, #600cb5 0%, #3b63e9 100%);
+    background: linear-gradient(to left, #600cb5 0%, #3b63e9 100%);
 }
 
 /*** 
@@ -4285,7 +4285,7 @@ img{
 	position:relative;
 	text-align:left;
 	border-radius:10px;
-	padding:50px 45px 60px;
+	padding:50px 36px 60px;
 	transition:all 600ms ease;
 	-moz-transition:all 600ms ease;
 	-webkit-transition:all 600ms ease;
