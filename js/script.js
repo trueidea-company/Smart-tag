@@ -264,6 +264,7 @@
 			nav:true,
 			autoHeight: true,
 			smartSpeed: 500,
+			rtl:true,
 			autoplay: 6000,
 			navText: [ '<span class="flaticon-back"></span>', '<span class="flaticon-arrow-pointing-to-right"></span>' ],
 			responsive:{
@@ -531,6 +532,7 @@
 			loop:true,
 			margin:0,
 			nav:true,
+			rtl:true,
 			smartSpeed: 500,
 			autoplay: 4000,
 			navText: [ '<span class="fa fa-angle-left"></span>', '<span class="fa fa-angle-right"></span>' ],
