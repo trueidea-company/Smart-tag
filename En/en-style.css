@@ -1766,6 +1766,9 @@ img{
 }
 .en-logo{
 	display: block;
+	display: block;
+    width: 275px;
+    margin-top: 20px;
 }
 .ar-logo{
 	display: none;
@@ -5802,7 +5805,10 @@ img{
 	position:relative;
 	margin-bottom:15px;
 }
-
+.main-footer .en-logo img{
+    margin-top: -20px;
+    margin-bottom: 15px;
+}
 .main-footer .logo-widget .text{
 	position:relative;
 	color:#ffffff;
